@@ -1,0 +1,36 @@
+{
+  "name": "reveal-theme",
+  "version": "0.1.0",
+  "description": "用于调整 reveal 的自带主题，使其适合我以中文为主的分享，并且增加若干组件样式",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "stylus styl/ -o css/",
+    "watch": "stylus -w styl/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meathill/reveal-theme.git"
+  },
+  "keywords": [
+    "reveal theme",
+    "Chinese"
+  ],
+  "author": {
+    "name": "Meathill",
+    "email": "meathill@gmail.com",
+    "url": "http://blog.meathill.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meathill/reveal-theme/issues"
+  },
+  "homepage": "https://github.com/meathill/reveal-theme#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-stylus": "^2.6.0"
+  }
+}

@@ -10,6 +10,9 @@
 .reveal blockquote {
   width: 100%;
 }
+.reveal blockquote p {
+  padding: 0 1rem;
+}
 code:not([class]) {
   background-color: rgba(255,255,255,0.1);
   border: 1px solid rgba(255,255,255,0.3);

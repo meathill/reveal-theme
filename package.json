@@ -26,11 +26,14 @@
   },
   "homepage": "https://github.com/meathill/reveal-theme#readme",
   "devDependencies": {
-    "del": "^2.2.2",
+    "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.0.4",
+    "gulp-clean-css": "^3.5.0",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-stylus": "^2.6.0"
+  },
+  "dependencies": {
+    "colors.css": "^2.3.0"
   }
 }

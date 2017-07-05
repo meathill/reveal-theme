@@ -20,5 +20,44 @@ code:not([class]) {
   padding: 0 0.5rem;
   text-transform: none;
 }
+.sf .reveal {
+  width: 85%;
+  margin-left: 15%;
+}
+.sf #sf-aside {
+  background-color: rgba(0,0,0,0.25);
+  color: #ddd;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 15%;
+}
+.sf #sf-aside > * {
+  padding-left: 1rem;
+}
+.sf #sf-aside h2 {
+  background-color: rgba(0,0,0,0.2);
+  margin: 0;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.25;
+}
+.sf #sf-aside .qrcode {
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.sf #sf-aside ul li {
+  list-style: none;
+  line-height: 2.5;
+}
+.sf #sf-aside ul a {
+  color: #ddd;
+  text-decoration: underline;
+}
+.sf #sf-aside ul a:hover {
+  color: #ffdc00;
+  text-decoration: none;
+}
 
 /*# sourceMappingURL=meathill-reveal-theme.css.map */

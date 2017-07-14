@@ -21,19 +21,21 @@ code:not([class]) {
   text-transform: none;
 }
 .sf .reveal {
-  width: 85%;
-  margin-left: 15%;
+  width: 88%;
+  margin-left: 12%;
 }
 .sf #sf-aside {
   background-color: rgba(0,0,0,0.25);
-  color: #ddd;
+  color: #ccc;
   position: absolute;
   top: 0;
   left: 0;
   bottom: 0;
-  width: 15%;
+  width: 12%;
 }
-.sf #sf-aside > * {
+.sf #sf-aside h2,
+.sf #sf-aside h4,
+.sf #sf-aside ul {
   padding-left: 1rem;
 }
 .sf #sf-aside h2 {
@@ -44,8 +46,12 @@ code:not([class]) {
   line-height: 1.25;
 }
 .sf #sf-aside .qrcode {
-  padding: 0.5rem;
-  border-radius: 0.5rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  display: block;
+  margin: 0 auto;
+  padding: 0.25rem;
+  opacity: 0.85;
 }
 .sf #sf-aside ul li {
   list-style: none;

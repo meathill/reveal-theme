@@ -11,8 +11,10 @@
     left 0
     bottom 0
     width 12%
+    display flex
+    flex-direction column
 
-    h2,h4,ul
+    h2,h4
       padding-left 1rem
 
     h2
@@ -21,6 +23,9 @@
       padding-top 1rem
       padding-bottom 1rem
       line-height 1.25
+
+    .qrcodes
+      flex 1 1
 
     .qrcode
       background-color white
@@ -31,6 +36,9 @@
       opacity .85
 
     ul
+      border-top 1px solid CurrentColor
+      padding 1rem 0 0 1rem
+
       li
         list-style none
         line-height 2.5

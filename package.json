@@ -1,6 +1,6 @@
 {
   "name": "meathill-reveal-theme",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "用于调整 reveal 的自带主题，使其适合我以中文为主的分享，并且增加若干组件样式",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,7 +28,7 @@
   "devDependencies": {
     "del": "^3.0.0",
     "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.5.0",
+    "gulp-clean-css": "^3.7.0",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^2.6.0",
     "gulp-stylus": "^2.6.0"

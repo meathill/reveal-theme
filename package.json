@@ -1,5 +1,5 @@
 {
-  "name": "reveal-theme",
+  "name": "meathill-reveal-theme",
   "version": "0.2.0",
   "description": "用于调整 reveal 的自带主题，使其适合我以中文为主的分享，并且增加若干组件样式",
   "scripts": {
@@ -18,7 +18,7 @@
   "author": {
     "name": "Meathill",
     "email": "meathill@gmail.com",
-    "url": "http://blog.meathill.com/"
+    "url": "http://meathill.com/"
   },
   "license": "MIT",
   "bugs": {

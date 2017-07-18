@@ -22,7 +22,9 @@ gulp.task('css', () => {
     .pipe(sourcemap.init())
     .pipe(sourcemap.write('.'))
     .pipe(gulp.dest(DEST))
-    .pipe(clean())
+    .pipe(clean({
+      level: 2
+    }))
     .pipe(rename('meathill-reveal-theme.min.css'))
     .pipe(gulp.dest(DEST));
 });

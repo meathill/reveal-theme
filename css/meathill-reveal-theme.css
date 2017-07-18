@@ -20,6 +20,9 @@ code:not([class]) {
   padding: 0 0.5rem;
   text-transform: none;
 }
+.reveal-aside {
+  display: none;
+}
 .sf .reveal {
   width: 88%;
   margin-left: 12%;
